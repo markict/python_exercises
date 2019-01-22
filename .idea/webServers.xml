@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cdac27c1-e0a8-43eb-be6b-1364518f85f7" name="RPI" url="http://192.168.50.13">
+        <fileTransfer host="192.168.50.13" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="aa485226-2653-4119-8173-816d55a5d44a" name="RPI_Internet" url="http://cciex.wicp.net">
+        <fileTransfer host="cciex.wicp.net" port="13933" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="13933" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
